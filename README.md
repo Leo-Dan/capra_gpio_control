@@ -1,8 +1,7 @@
-# capra_estop
+# capra_gpio_control
 
-Capra_estop is a node that provide a service to toggle on and off a logical estop. The program listen for service call and then turn on or off the logical pin428.
+capra_gpio_control is a node that provide features to toggle the gpio pins of the Nvidia Jetson Xaveir AGX. 
 
-The program use the library [https://github.com/clubcapra/JetsonXavierGPIO.git] to help the jetson talk to it's GPIO ports.
+There's a useful library ! [https://github.com/clubcapra/JetsonXavierGPIO.git].
 
-The program is listed as /capra_estop in the service list.
 
